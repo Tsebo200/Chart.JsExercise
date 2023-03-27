@@ -11,7 +11,7 @@ import PieChart from '../components/PieChart';
 import DoughnutChart from '../components/DoughnutChart';
 import PolarAreaChart from '../components/PolarAreaChart';
 import RadarChart from '../components/RadarChart';
-
+import LineChart from '../components/LineChart';
 
 
 function Home() {
@@ -41,6 +41,10 @@ function Home() {
 
     <div className='chart'>
     <RadarChart/>
+    </div>
+
+    <div className='chart'>
+    <LineChart/>
     </div>
 
 

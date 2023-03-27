@@ -7,7 +7,7 @@ import BarChart from './components/BarChart';
 import DoughnutChart from './components/DoughnutChart';
 import PolarAreaChart from './components/PolarAreaChart';
 import RadarChart from './components/RadarChart';
-
+import LineChart from './components/LineChart';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Route path='/doughnut' element={<DoughnutChart/>}/>
       <Route path='/polararea' element={<PolarAreaChart/>}/>
       <Route path='/radar' element={<RadarChart/>}/>
+      <Route path='/line' element={<LineChart/>}/>
     </Routes>
     </div>
   );
